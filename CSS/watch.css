@@ -1,0 +1,27 @@
+.hero-img{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background: url("../images/undraw_home_cinema_l7yl.svg") no-repeat center center/contain;
+    height: 40vh;
+}
+
+.h-sec{
+    height: 5vh;
+    color: orange;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.t-sec{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

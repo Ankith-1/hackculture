@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Explore Bharat</title>
+    <link rel="stylesheet" href="./CSS/explore.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-p1">Let's Explore</div>
+        <div id="navbar-p2">
+            <div class="link"><a href="./">Home</a></div>
+            <div class="link active"><a href="./explore.html">Explore</a></div>
+            
+            <div class="link"><a href="./watch.html">Watch</a></div>
+            <div class="link"><a href="./index.html#about">About Us</a></div>
+        </div>
+        
+    </nav>
+    <div class="heading">
+        <div>Choose a State To Explore It's Uniqueness</div>
+    </div>
+    <div data-aos="fade-up" class="india-map">
+        <img draggable='false' id="Country_India" src="./images/country.svg" alt="map of india">
+        <span class="guj reversedSpan">
+            <span><a id="View" href="">Gujarat</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="Rajasthan reversedSpan">
+            <span><a id="rajasthanView" href="">Rajasthan</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="Punjab reversedSpan">
+            <span><a id="PunjabView" href="">Punjab</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="Haryana reversedSpan">
+            <span><a id="HaryanaView" href="">Haryana</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <div class="pin Himachal-pradesh">
+            <span><a id="himachalView" href="">Himachal Pradesh</a></span>
+        </div>
+        <span class="JammuKashmir reversedSpan">
+            <span><a id="JammuKashmirView" href="">Jammu Kashmir</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="Ladakh reversedSpan">
+            <span><a id="LadakhView" href="">Ladakh</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="UttarPradesh reversedSpan">
+            <span><a id="UttarPradeshView" href="">Uttar Pradesh</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="MadhyaPradesh reversedSpan">
+            <span><a id="MadhyaPradeshView" href="">Madhya Pradesh</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="Bihar reversedSpan">
+            <span><a id="BiharView" href="">Bihar</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <div class="pin TamilNadu">
+            <span><a id="tamilNaduView" href="">Tamil Nadu</a></span>
+        </div>
+        <span class="Kerala reversedSpan">
+            <span><a id="keralaView" href="">Kerala</a></span>
+            <span id="smallPulse" class="pin reversedPin"> </span>
+        </span>
+        <span class="Karnataka reversedSpan">
+            <span><a id="KarnatakaView" href="">Karnataka</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="Maharashtra reversedSpan">
+            <span><a id="MaharashtraView" href="">Maharashtra</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <span class="Goa reversedSpan">
+            <span><a id="GoaView" href="">Goa</a></span>
+            <span id="smallPulse" class="pin reversedPin"> </span>
+        </span>
+        <div class="pin AndhraPradesh">
+            <span><a id="AndhraPradeshView" onclick="myFunction()" href="">Andhra Pradesh</a></span>
+        </div>
+        <div class="pin Telangana">
+            <span><a id="TelanganaView" href="">Telangana</a></span>
+        </div>
+        <span class="Chhattisgarh reversedSpan">
+            <span><a id="ChhattisgarhView" href="">Chhattisgarh</a></span>
+            <span id="" class="pin reversedPin"> </span>
+        </span>
+        <div class="pin Odisha">
+            <span><a id="OdishaView" href="">Odisha</a></span>
+        </div>
+        <span class="Jharkhand reversedSpan">
+            <span><a id="JharkhandView" href="">Jharkhand</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <div class="pin WestBengal">
+            <span><a id="WestBengalView" href="">West Bengal</a></span>
+        </div>
+        <span class="Meghalaya reversedSpan">
+            <span><a id="MeghalayaView" href="">Meghalaya</a></span>
+            <span id="smallPulse" class="pin reversedPin"> </span>
+        </span>
+        <span class="Assam reversedSpan">
+            <span><a id="AssamView" href="">Assam</a></span>
+            <span class="pin reversedPin"> </span>
+        </span>
+        <div  class="pin Sikkim">
+            <span><a id="SikkimView" href="">Sikkim</a></span>
+        </div>
+        <span class="Tripura reversedSpan">
+            <span><a id="TripuraView" href="">Tripura</a></span>
+            <span id="smallPulse" class="pin reversedPin"> </span>
+        </span>
+        <div id="smallPulse" class="pin Mizoram">
+            <span><a id="MizoramView" href="">Mizoram</a></span>
+        </div>
+        <div class="pin Manipur">
+            <span><a id="ManipurView" href="">Manipur</a></span>
+        </div>
+        <div class="pin Nagaland">
+            <span><a id="NagalandView" href="">Nagaland</a></span>
+        </div>
+        <div id="ArunachalPradesh class="pin ArunachalPradesh">
+            <span><a id="ArunachalPradeshView" href="">ArunachalPradesh</a></span>
+        </div>
+        <div id="Uttarakhand" class="pin Uttarakhand">
+            <span><a id="UttrakhanView" href="">Uttarakhand</a></span>
+        </div>
+        <div id="slideContainer">
+            <img draggable='false' onclick="closeView()" id="closeBtn" src="https://img.icons8.com/?size=100&id=81432&format=png" alt="close Button">
+            <img draggable='false' id="sourceMapImage" src="./images/gujSlide.PNG" alt="Guj_Map">
+        </div>
+          <img draggable='false' id="festivalViewOn" class="festivalImage SlideImageIcons" src="./images/Festival CK.png" alt="Festival">
+            <img id="ViewFood" draggable='false' src="./images/Food CK.png" alt="food Image" class="foodImage SlideImageIcons">
+            <img id="viewArtAndDance" draggable='false' class="danceImage SlideImageIcons" src="./images/Dance CK.png" alt="dance Image">
+            <img draggable='false' id="templeViewOn" onclick="accessTemple()" src="./images/Temple CK.png" class="templeImage SlideImageIcons" alt="templeImage">
+        <div hidden  id="outerSlideFunc" class="outerSlide">
+        </div>
+        <div id="AccessTempleView" class="templeView">
+        
+            <div id="flexTempleID" class="FlextempleView">
+                <img draggable='false' id="TempleImage1" class="templeCard" src=""  alt="Temple Image 1">
+                <img draggable='false' id="TempleImage2" class="templeCard" src="" alt="Temple Image 2">
+                <img draggable='false' id="TempleImage3" class="templeCard" src="" alt="Temple Image 2">
+                <img draggable='false' id="closeTempleView" src="https://img.icons8.com/?size=100&id=81432&format=png" alt="close button temple view">
+            </div>
+        </div>
+            
+    <div id="AccessFestivalView" class="FestivalView">
+        <div id="flexFestivalID" class="FlexFestivalView">
+            <img draggable='false' id="FestivalImage1" class="FestivalCard" src="" alt="Temple Image 1">
+            <img draggable='false' id="closeFestivalView" src="https://img.icons8.com/?size=100&id=81432&format=png" alt="close button temple view">
+        </div>
+    </div>
+    <div id="accessFoodItem" class="ViewFoodItem">
+        <div id="flexFoodItemID" class="FlexFoodView">
+            <img draggable='false' id="FoodImage1" class="FoodCard" src="" alt="Temple Image 1">
+            <img draggable='false' id="closeFoodView" src="https://img.icons8.com/?size=100&id=81432&format=png" alt="close button temple view">
+        </div>
+    </div>
+    <div id="accessArtItem" class="ViewArtItem">
+        <div id="flexFoodItemID" class="FlexArtView">
+            <img draggable='false' id="ArtImage1" class="FoodCard" src="" alt="Temple Image 1">
+            <img draggable='false' id="ArtImage2" class="FoodCard" src="" alt="Temple Image 1">            <img draggable='false' id="closeArtView" src="https://img.icons8.com/?size=100&id=81432&format=png" alt="close button temple view">
+        </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./App.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
